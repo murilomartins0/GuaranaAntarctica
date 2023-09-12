@@ -179,6 +179,7 @@ h4{
 .container2{
   height: 100%;
   display: flex;
+  margin-left: 250px;
 }
 
 #seta{
