@@ -222,5 +222,11 @@ h4{
       margin-top: 60px;
       margin-right: 50px;
     }
+   
+   .container2{
+      height: 100%;
+      display: flex;
+      margin-left:0px;
+    }
   }
 
