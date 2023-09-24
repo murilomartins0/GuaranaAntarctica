@@ -1,0 +1,250 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0,135,62);
+}
+
+textarea{
+  resize: none;
+}
+
+nav {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  word-spacing: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 120px;
+}
+
+nav ul li {
+  display: inline;
+  vertical-align: middle;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  font-size: 20px;
+  color: #599F56;
+}
+
+header {
+  background-color: rgb(0,135,62);
+  padding: 15px;
+  text-align: right;
+  word-spacing: 10px;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  margin-right: 100px;
+}
+
+header ul li {
+  display: inline;
+}
+
+.article{
+  width: 450px;
+  margin-left: 40px;
+  float: right;
+  margin-right: 320px;
+  margin-top: 50px;
+}
+
+.article h1{
+  width: 700px;
+}
+
+h1{
+  font-family: Helvetica, sans-serif;
+  font-size: 80px;
+  color: white;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+  margin-top: -50px;
+}
+
+.container{
+  width: 100%; 
+  height: 500px;
+  display: flex;
+}
+
+.container3{
+  width: 100%; 
+  height: 500px;
+  display: flex;
+}
+
+.rodape2{
+  background-color: white;
+  text-align: center;
+  height: 50px;
+  position: absolute;
+  width: 100%;
+  font-weight: bold;
+}
+
+.rodape1{
+  background-color: white;
+  height: 45px;
+  position: absolute;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+h5{
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  line-height: 0px;
+  margin-top: 8px;
+}
+
+.contato{
+  width:400px;
+  height:300px;
+  margin-left:30%;
+  margin-bottom: 170px;
+}
+
+input {
+  width: 15.5cm;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+textarea {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  resize: none;
+  border-radius: 10px;
+}
+
+.article h3{
+  font-size: 50px;
+  color: rgb(0,135,62);
+}
+
+.fundo{
+  background-color: rgb(143, 221, 142);
+}
+
+.fundo p{
+  color: black;
+  font-size: 16px;
+}
+
+h4{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.titulo{
+  background-color: rgb(0,135,62);
+  width: 100%;
+  height: 60px;
+  margin-top: -66px;
+}
+
+.texto{
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+
+.texto h3{
+  font-size: 50px;
+  color: rgb(0,135,62);
+}
+
+.imagem{
+  width: 280px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+}
+
+.container2{
+  height: 100%;
+  display: flex;
+  margin-left: 250px;
+}
+
+#seta{
+ margin-right: 7%;
+ margin-left: 90%;
+ width: 70px;
+ margin-top: -58px;
+ }
+
+ .lingua{
+  float: right;
+ }
+
+ /*Layout responsivo para o dispositivo Nest Hub*/
+
+ @media only screen and (min-width: 850px) and (max-width: 1024px) {
+
+    body {
+      background-color: rgb(0,135,62);
+      }
+
+    h1{
+      font-family: Helvetica, sans-serif;
+      font-size: 50px;
+      color: white;
+      }
+
+    p{
+      color: white;
+      font-size: 20px;
+      margin-top: -30px;
+      }
+
+    .fundo{
+      background-color: rgb(143, 221, 142);
+    }
+
+    .contato{
+      margin-left: 20%;
+    }
+
+    .container img{
+      width: 150px;
+      height: 300px;
+      margin-top: 60px;
+      margin-right: 50px;
+    }
+
+    .container2{
+      height: 100%;
+      display: flex;
+      margin-left:0px;
+    }
+  }
+
